@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+   .btn{
+         @apply block  bg-color-secondry  px-5 py-2 rounded-md font-light text-lg  ease-in duration-200 cursor-pointer hover:bg-transparent border border-color-secondry active:scale-75;
+   }
+   .btn2{
+      @apply  block border border-color-secondry text-color-secondry px-5 py-2 font-light ease-in duration-200 rounded-md text-lg cursor-pointer hover:bg-color-hover-bg active:scale-75;
+     }
+ 
+   .ftricon{
+      @apply  text-xl sm:text-3xl text-color-while hover:text-color-secondry ease-in duration-200 cursor-pointer ;
+     }
+    .navigation{
+      @apply hover:text-color-secondry font-light text-lg ease-in duration-200 cursor-pointer;
+    } 
+    .ancher{
+      @apply hover:text-color-secondry font-light text-3xl ease-in duration-200 cursor-pointer;
+    } 
